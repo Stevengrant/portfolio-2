@@ -9,7 +9,15 @@
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="assets/css/main.css" /> -->
+    <!-- SMACSS Refactor-->
+
+<link href="https://fonts.googleapis.com/css?family=Arvo|Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/base.css" />
+		<link rel="stylesheet" href="assets/css/layout.css" />
+		<link rel="stylesheet" href="assets/css/modules.css" />
+
 	</head>
 	<body class="is-preload">
 
@@ -20,9 +28,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
-							<p>Hyperspace Engineer</p>
+							<span class="image avatar48"><img src="https://pixel.nymag.com/imgs/daily/vulture/2017/06/26/villains/26-dr-doom.w700.h700.jpg" alt="" /></span>
+							<h1 id="title">Steve Grant</h1>
+							<p>Software Development Engineer</p>
 						</div>
 
 					<!-- Nav -->
@@ -31,7 +39,6 @@
 								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
 
@@ -41,11 +48,12 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+              <!-- todo: uncomment when I have these dumb things -->
+							<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+							<li><a href="https://github.com/Stevengrant" class="icon fa-github"><span class="label">Github</span></a></li>
+							<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<li><a href="mailto:blue.ninjaneer@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 
 				</div>
@@ -60,14 +68,11 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
-							</header>
-
+                <h2 class="alt">Hi! I'm <strong>Steven Grant</strong>
+                  <br /> <a href="https://github.com/Stevengrant">Software Developer</a> 
+                  <br />
+								<a href="https://www.navy.mil/">Veteran</a> </h2>
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
 							</footer>
 
 						</div>
@@ -81,51 +86,48 @@
 								<h2>Portfolio</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<p>Here's some of the stuff I've done:</p>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<a href="" class="image fit"><img src="data:image/jpeg;base64,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" alt="" /></a>
 										<header>
-											<h3>Ipsum Feugiat</h3>
+											<h3>Kiosk accessability & Front end rework</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="https://www.lifewire.com/thmb/ziAvCbAufGRWptP95uXW0c4G1aA=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/illuminated-server-room-panel-660495303-5a24933d4e46ba001a771cd1.jpg" alt="" /></a>
 										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
+											<h3>Pricing API development</h3>
 										</header>
 									</article>
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="https://ichef.bbci.co.uk/news/660/cpsprodpb/1999/production/_92935560_robot976.jpg" alt="" /></a>
 										<header>
-											<h3>Dolor Penatibus</h3>
+											<h3>Automated UI Testing Framework</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="#" class="image fit"><img src="https://www.thewrap.com/wp-content/uploads/2016/11/Starship-Troopers.jpg" alt="" /></a>
 										<header>
-											<h3>Orci Convallis</h3>
+											<h3>Hunting Bugs/clearing a neglected backlog</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="data:image/png;base64,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" alt="" /></a>
+										<header>
+											<h3>Galvanize Full Stack</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rating_Badge_ET.jpg/250px-Rating_Badge_ET.jpg" alt="" /></a>
+										<header>
+											<h3>Electronics Tech In the USN</h3>
 										</header>
 									</article>
 								</div>
@@ -144,46 +146,10 @@
 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p>Searching for new directions, I lived in this farcical, 1993 SF life. I'm an ex-cop freed from 36 years of forced hibernation to help catch a criminal who released himself from a similar incarceration. In my futuristic story I find Los Angeles a sea of Taco Bells and enforced peace, and within that satiric overview I became a gun-toting fish out of water. My life plays like a live-action cartoon, and while there is nothing particularly wrong with that, my life's a rather flat experience. The irony of a peaceable society that both requires and despises its bloody saviors has been captured far more profoundly in movies like Dirty Harry.</p>
 
 						</div>
 					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-
-			</div>
 
 		<!-- Footer -->
 			<div id="footer">
